@@ -1,0 +1,100 @@
+
+.mainflex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.buttons {
+padding: 10px;
+}
+#video-explanation {
+  width: 820px;
+  padding: 10px;
+}
+
+.links {
+  padding: 10px;
+  font-family: 'Helvetica';
+  font-size: 18px;
+  overflow: auto;
+  line-height: 23px;
+}
+
+.buttons button{
+display: inline-flex;
+color: black;
+font-family: 'Helvetica';
+font-size: 13px;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+
+
+
+
+#exhibition {
+  color: red;
+  padding-bottom:20px;
+}
+
+#intro a {
+  color: black;
+}
+
+#intro {
+  padding-bottom:20px;
+}
+
+#resize a {
+  color: #CD4848;
+}
+
+#resize {
+  padding-bottom:20px;
+}
+
+#banner a {
+  color: #0060C0;
+}
+
+#feedback a {
+  color: #71086A;
+}
+
+#seating a {
+  color: #C08000;
+}
+
+
+#briefcomment a {
+  color:#004000;
+}
+
+
+#bowling a {
+  color:#600020;
+}
+
+#diaries a {
+  color:grey;
+}
+
+#mail a{
+color:red;
+}
+
+.ssylka {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:1099px) {
+  .mainflex {
+    flex-direction: column;
+  }
+
+  #video-explanation {
+    width: 100vw;
+  }
+}
