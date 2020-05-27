@@ -8,6 +8,7 @@
 .buttons {
 padding: 10px;
 }
+
 #video-explanation {
   width: 820px;
   padding: 10px;
@@ -26,25 +27,27 @@ display: inline-flex;
 color: black;
 font-family: 'Helvetica';
 font-size: 13px;
-margin-top: 10px;
-margin-left: 5px;
+margin-top: 2px;
+margin-left: 1px;
+cursor: pointer;
 }
-
-
-
 
 
 #exhibition {
   color: red;
-  padding-bottom:20px;
+  padding-bottom:25px;
+}
+
+#explanation{
+padding-bottom:10px;
 }
 
 #intro a {
-  color: black;
+  color: grey;
 }
 
 #intro {
-  padding-bottom:20px;
+  padding-bottom:10px;
 }
 
 #resize a {
@@ -52,42 +55,61 @@ margin-left: 5px;
 }
 
 #resize {
-  padding-bottom:20px;
+  padding-bottom:10px;
 }
 
 #banner a {
   color: #0060C0;
 }
 
+#banner {
+  padding-bottom:10px;
+}
+
 #feedback a {
   color: #71086A;
+}
+
+#feedback {
+  padding-bottom:10px;
 }
 
 #seating a {
   color: #C08000;
 }
 
+#seating {
+  padding-bottom:10px;
+}
 
 #briefcomment a {
   color:#004000;
 }
 
+#briefcomment {
+  padding-bottom:10px;
+}
 
 #bowling a {
   color:#600020;
 }
 
-#diaries a {
-  color:grey;
+#bowling {
+  padding-bottom:10px;
 }
 
-#mail a{
+#diaries a {
+  color:#9678a1;
+}
+
+#diaries {
+  padding-bottom:25px;
+}
+
+#mail {
 color:red;
 }
 
-.ssylka {
-  padding-bottom: 20px;
-}
 
 @media screen and (max-width:1099px) {
   .mainflex {
